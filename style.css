@@ -1,0 +1,184 @@
+/* universal styles */
+
+* {
+    font-family: 'Roboto';
+}
+
+h1, p, ul, button {
+    color: #f9faf8;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+button {
+    width: 90px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+}
+
+
+.header, .one, .footer {
+    background-color: #1f2937;
+}
+
+/* header */
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 16px;
+
+}
+
+.header ul {
+    font-size: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 16px;
+}
+
+/* body one */
+
+.one {
+    display: flex;
+    padding: 80px;
+    justify-content: space-around;
+}
+
+.right {
+    max-width: 500px;
+}
+
+.one h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;  
+}
+
+.one p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.one button {
+    margin-top: 15px;
+}
+
+.one img {
+    width: 500px;
+}
+
+/* body two */
+
+figure {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+
+figcaption {
+    margin-top: 15px;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.two h1 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.two img {
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    border-color: #3882f6;
+}
+
+/* body three */
+
+.three {
+    background-color: #e5e7eb;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.three h1 {
+    font-family: "Vesper Libre";
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 210;
+    max-width: 950px;
+}
+
+.three h2 {
+    text-align: right;
+    color: #1f2937;
+    font-family: roboto;
+}
+
+/* body four */
+
+.four {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    margin: 100px 150px;
+    padding: 30px 70px;
+}
+
+.four, button {
+    background-color: #3882f6;
+}
+
+.four button {
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
